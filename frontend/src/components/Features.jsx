@@ -83,7 +83,16 @@ const Features = () => {
                 </div>
 
 
-          )
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  )
 }
 
-          export default Features
+export default Features
