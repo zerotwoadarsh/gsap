@@ -19,7 +19,7 @@ const Features = () => {
       }
     })
 
-    animateWithGsap('#features_title', { y:0, opacity:1})
+    animateWithGsap('#features_title', { y: 0, opacity: 1 })
     animateWithGsap(
       '.g_grow',
       { scale: 1, opacity: 1, ease: 'power1' },
@@ -27,10 +27,10 @@ const Features = () => {
     );
     animateWithGsap(
       '.g_text',
-      {y:0, opacity: 1,ease: 'power2.inOut',duration: 1}
+      { y: 0, opacity: 1, ease: 'power2.inOut', duration: 1 }
     )
-  }, []);  
-  
+  }, []);
+
   return (
     <section className="h-full common-padding bg-zinc relative overflow-hidden">
       <div className="screen-max-wdith">
@@ -38,11 +38,16 @@ const Features = () => {
           <h1 id="features_title" className="section-heading">Explore the full story.</h1>
         </div>
 
+        <div className="flex flex-col justify-center items-center overflow-hidden">
+          <div className="mt-32 mb-24 pl-24">
+            <h2 className="text-5xl lg:text-7xl font-semibold">iPhone.</h2>
+            <h2 className="text-5xl lg:text-7xl font-semibold">Forged in titanium.</h2>
+          </div>
 
 
 
 
-      )
+          )
 }
 
-export default Features
+          export default Features
