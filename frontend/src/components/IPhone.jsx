@@ -30,3 +30,14 @@ function Model(props) {
         material[1].needsUpdate = true;
       });
     }, [materials, props.item]);
+  
+    return (
+      <group {...props} dispose={null}>
+        
+      </group>
+    );
+  }
+  
+  export default Model;
+  
+  useGLTF.preload("/models/scene.glb");
